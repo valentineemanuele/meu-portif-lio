@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5d5c9 ;
+    background-color: ;
+    color: #333;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    background-color: #d63353  ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Seção de Habilidades */
+#skills {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;  /* Flexbox para distribuir os itens */
+    flex-wrap: wrap;  /* Permite que os itens se movam para a próxima linha se necessário */
+}
+
+.skill {
+    background-color: #8a182f  ;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    flex: 1 1 100px;  /* Flex item que ocupa o espaço disponível */
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* Seção de Contato */
+#contact {
+    padding: 30px;
+    background-color: #e28f70 ;
+    text-align: center;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+#contact a {
+    color: #ffffff ;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Espaço!</h1>
+        <p>Olá, sou Emanuele Valentine, programadora e criadora de conteúdo.</p>
+    </header>
+
+    <section id="skills">
+        <h2>Minhas Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Flexbox</div>
+            <div class="skill">Grid</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Encontre-me em:</p>
+        <ul>
+            <li><a href="https://github.com/valentineemanuele" target="_blank">GitHub</a></li>
+            <li><a href="mailto:valentine0495@gmail.com.com">Email</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Emanuele Valentine. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
